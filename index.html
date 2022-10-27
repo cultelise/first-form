@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="style.css"
   </head>
   <body>
-    <div>
-      <form action="/myhandling-form-page" method="post">
-        <section id="intro">
-          <fieldset id="info">
+    <div class="page">
+      <div class="left">
+        <img src="/img/house-2022147.jpg" alt="Neighborhood in pop-up book" srcset="img/house-2022147.jpg 3x, img/house-2022147_1280.jpg 2x, img/house-2022147_640.jpg 1x">
+        <div id="intro">
+          <div id="info">
             <legend style="font-size: 1.5rem">Input Form</legend>
               <h3>Please input your name, e-mail, and a short message.</h3>
               <div class="formtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
@@ -19,32 +20,36 @@
                 <span>Required fields are followed by</span>
                 <span aria-label="required" style="padding-left: 3px;"> * </span>.
               </div>
-          </fieldset>
-        </section>
-        <section id="personal">
-          <div class="name">
-            <label for="name">
-              <span><strong>Name:</strong></span>
-              <span aria-label="required"><strong>*</strong></span>
-            </label>
-            <input type="text" id="name" name="name" required autofocus>
           </div>
-          <div class="email">
-            <label for="email">
-              <span><strong>E-mail:</strong></span>
-              <span aria-label="required"><strong>*</strong></span>
-            </label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="message">
-            <label for="message">
-              <span><strong>Message:</strong></span>
-            </label>
-            <textarea style="resize:horizontal" name="message" id="message" cols="34" rows="18"></textarea>
-          <div class="butt"><button type="submit"><strong>Send Your Message</strong></button></div>
-          </div>
-        </section>
-      </form>
+        </div>
+    </div>
+      <div class="right">
+        <div class="topright">
+        </div>
+        <form action="/myhandling-form-page" method="post">
+          <section id="personal">
+            <div class="name">
+              <label for="name">
+                <span><strong>Name:</strong></span>
+                <span aria-label="required"><strong>*</strong></span>
+              </label>
+              <input type="text" id="name" name="name" required autofocus>
+            </div>
+            <div class="email">
+              <label for="email">
+                <span><strong>E-mail:</strong></span>
+                <span aria-label="required"><strong>*</strong></span>
+              </label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="butt"><button type="submit"><strong>Send Your Message</strong></button></div>
+            
+          </section>
+        </form>
+        <div class="botright">
+          asdwadda
+        </div>
+      </div>
     </div>
   </body>
 </html>
